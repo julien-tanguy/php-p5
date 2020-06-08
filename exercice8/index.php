@@ -7,8 +7,8 @@
         <title>php - e8p5</title>
     </head>
     <body>
-    <p><?php foreach($months as $elements){
-        echo $elements . '<br />';
-    } ?></p>
+    <?php foreach($months as $elements){
+        ?><p><?php echo $elements; ?></p><?php
+    } ?>
     </body>
 </html>

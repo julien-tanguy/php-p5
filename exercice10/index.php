@@ -7,8 +7,8 @@
         <title>php - e10p5</title>
     </head>
     <body>
-    <p><?php foreach($hautDeFrance as $keys => $elements){
-        echo 'Le département ' . $elements . ' a le numéro ' . $keys . '.<br />';
-    } ?></p>
+    <?php foreach($hautDeFrance as $keys => $elements){
+        ?><p><?php echo 'Le département ' . $elements . ' a le numéro ' . $keys . '.'; ?></p><?php
+    } ?>
     </body>
 </html>

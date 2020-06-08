@@ -7,8 +7,8 @@
         <title>php - e9p5</title>
     </head>
     <body>
-    <p><?php foreach($hautDeFrance as $clés => $elements){
-        echo $elements . '<br />';
-    } ?></p>
+    <?php foreach($hautDeFrance as $keys => $elements){
+        ?><p><?php echo $elements; ?></p><?php
+    } ?>
     </body>
 </html>
